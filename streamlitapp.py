@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open(TrainedModel.pkl))
+model = pickle.load(open('https://github.com/smuggerteey/Churn_Prediction/blob/main/TrainedModel.pkl'))
 
 def main():
     st.title('Model Deployment with Streamlit')
